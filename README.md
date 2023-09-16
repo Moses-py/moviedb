@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MovieDB - Movie Search Application
 
-## Getting Started
+Welcome to MovieDB, your go-to movie search application! MovieDB allows you to search for your favorite movies, discover new ones, and get detailed information about them. This application is built with Next.js, styled with Tailwind CSS, and powered by the TMDB API.
 
-First, run the development server:
+## Table of Contents
 
-```bash
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+
+## Features
+
+- Search for movies by title, actor, director, or genre.
+- View detailed information about each movie, including plot, release date, and ratings.
+- Discover trending and popular movies.
+- Responsive and user-friendly design.
+
+## Demo
+
+Check out the [MovieDB Demo](https://your-demo-url.com) to see the application in action!
+
+## Installation
+
+To get MovieDB up and running on your local machine, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/moses-py/moviedb.git
+   Navigate to the project directory:
+   cd moviedb
+   ```
+
+Install the dependencies:
+npm install
+
+Start the development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit http://localhost:3000 to access MovieDB.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Usage
+Browse through the list of movies and click on a movie card to view its details.
+Explore trending and popular movies from the homepage.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Technologies
+MovieDB is built using the following technologies:
 
-## Learn More
+Next.js - A React framework for building server-rendered applications.
+Tailwind CSS - A utility-first CSS framework for rapid UI development.
+TMDB API - A powerful movie database API for retrieving movie information.
 
-To learn more about Next.js, take a look at the following resources:
+Contributing
+Contributions are welcome! If you have any ideas for improvements or would like to report a bug, please open an issue or submit a pull request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Enjoy using MovieDB and happy movie searching! 🍿🎥
