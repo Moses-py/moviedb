@@ -20,7 +20,7 @@ Welcome to MovieDB, your go-to movie search application! MovieDB allows you to s
 
 ## Demo
 
-Check out the [MovieDB Demo](https://your-demo-url.com) to see the application in action!
+Check out the [MovieDB Demo](https://moviedb-seven-red.vercel.app/) to see the application in action!
 
 ## Installation
 
@@ -29,7 +29,7 @@ To get MovieDB up and running on your local machine, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/moses-py/moviedb.git
+   git clone https://github.com/sephison/moviedb.git
    Navigate to the project directory:
    cd moviedb
    ```
